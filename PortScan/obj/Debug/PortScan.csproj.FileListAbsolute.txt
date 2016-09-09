@@ -1,0 +1,9 @@
+E:\CProjects\PortScan\PortScan\bin\Debug\PortScan.exe.config
+E:\CProjects\PortScan\PortScan\bin\Debug\PortScan.exe
+E:\CProjects\PortScan\PortScan\bin\Debug\PortScan.pdb
+E:\CProjects\PortScan\PortScan\obj\Debug\PortScan.Form1.resources
+E:\CProjects\PortScan\PortScan\obj\Debug\PortScan.Properties.Resources.resources
+E:\CProjects\PortScan\PortScan\obj\Debug\PortScan.csproj.GenerateResource.Cache
+E:\CProjects\PortScan\PortScan\obj\Debug\PortScan.exe
+E:\CProjects\PortScan\PortScan\obj\Debug\PortScan.pdb
+E:\CProjects\PortScan\PortScan\obj\Debug\PortScan.csprojResolveAssemblyReference.cache
