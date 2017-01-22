@@ -67,7 +67,6 @@ namespace PortScan
                         //Thread.Sleep(500);
                         client = new TcpClient();
                         client.Connect(ip, nowPort);
-                        //client.Connect(ip, nowPost);
                         Invoke(printPortEvent, (object)(ip.ToString() + ":" + nowPort));
                     }
                     catch (SocketException)
@@ -76,11 +75,11 @@ namespace PortScan
                     }
                     nowPort = (int)(Invoke(getNextPortEvent));
                 }
-                client.Close();
+                //client.connection.Close();
             }
             catch(Exception ex)
             {
-                Invoke(printEvent, (object)(ex.Message));
+                Invoke(printEvent, (object)(" - " + ex.Message));
             }
         }
         private void beginScan()
